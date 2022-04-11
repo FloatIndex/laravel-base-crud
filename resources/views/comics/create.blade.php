@@ -7,6 +7,7 @@
     <div class="container">
 
         <form method="POST" action="{{route('comics.store')}}">
+            @csrf
 
             <div class="my-3">
                 <label for="title" class="form-label">Title</label>
@@ -35,12 +36,12 @@
             
             <div class="my-3">
                 <label for="sale_date" class="form-label">Sale Date</label>
-                <input type="data" class="form-control" id="sale_date" name="sale_date" value='09/08/1997'>
+                <input type="data" class="form-control" id="sale_date" name="sale_date" value='1997/08/09'>
             <div>
 
             <div class="my-3">
                 <label for="description" class="form-label">Description</label>
-                <input type="textarea" class="form-control" id="description" name="description" value='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod, adipisci nisi placeat soluta molestiae quia aliquam impedit cumque totam optio rem quaerat dolores officiis pariatur nobis eos hic quis?'>
+                <textarea class="form-control" id="description" name="description" rows="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur mollitia rem nisi asperiores voluptatem dolore tempora eius ea, illum distinctio ullam vel fuga, dolorum reprehenderit nemo cupiditate tempore accusamus soluta!</textarea>
             <div>
 
             <div class="my-4">
