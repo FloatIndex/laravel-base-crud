@@ -45,7 +45,7 @@
             <div>
 
             <div class="my-4">
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-success">Edit</button>
                 <a class="btn btn-info" href="{{route('comics.index')}}" role="button">Back to the list</a>
             </div>
         </form>

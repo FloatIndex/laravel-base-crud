@@ -107,7 +107,7 @@ class ComicController extends Controller
         $modifiedComic->type = $data['type'];
         $modifiedComic->save();
 
-        return redirect()->route('comics.show', $id);
+        return redirect()->route('comics.show', $id)->with('status', 'Comic successfully updated');
     }
 
     /**
@@ -121,6 +121,6 @@ class ComicController extends Controller
         $comic = Comic::find($id);
         $comic->delete();
 
-        return redirect()->route('comics.index');
+        return redirect()->route('comics.index')->with('status', 'Comic successfully deleted');
     }
 }
