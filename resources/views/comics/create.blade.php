@@ -21,12 +21,12 @@
 
             <div class="my-3">
                 <label for="type" class="form-label">Type</label>
-                <input type="text" class="form-control" id="type" name="type" value='Graphic Novel'>
+                <input type="text" class="form-control" id="type" name="type" value='Type'>
             <div>
             
             <div class="my-3">
                 <label for="series" class="form-label">Series</label>
-                <input type="text" class="form-control" id="series" name="series" value='New Comic Series'>
+                <input type="text" class="form-control" id="series" name="series" value='Series'>
             <div>
 
             <div class="my-3">
@@ -41,7 +41,7 @@
 
             <div class="my-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea class="form-control" id="description" name="description" rows="4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur mollitia rem nisi asperiores voluptatem dolore tempora eius ea, illum distinctio ullam vel fuga, dolorum reprehenderit nemo cupiditate tempore accusamus soluta!</textarea>
+                <textarea class="form-control" id="description" name="description" rows="4">test</textarea>
             <div>
 
             <div class="my-4">
