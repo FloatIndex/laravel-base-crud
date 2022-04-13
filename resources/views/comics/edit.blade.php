@@ -5,9 +5,9 @@
 @section('content')
     <div class="container">
 
-        <form method="POST" action="{{route('comics.update', $comic->$id)}}">
+        <form method="POST" action="{{ route('comics.update', $comic->id) }}">
             @csrf
-            @method('PUT');
+            @method('PUT')
 
             <div class="my-3">
                 <label for="title" class="form-label">Title</label>
@@ -45,7 +45,8 @@
             <div>
 
             <div class="my-4">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-success">Submit</button>
+                <a class="btn btn-info" href="{{route('comics.index')}}" role="button">Back to the list</a>
             </div>
         </form>
 
